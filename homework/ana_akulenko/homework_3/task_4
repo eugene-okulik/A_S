@@ -1,0 +1,5 @@
+katets = [21, 20]
+area = (((katets[0]) * (katets[1]) * 0.5))
+hypo = ((katets[0] ** 2) + (katets[1] ** 2)) ** 0.5
+print(area)
+print(hypo)
