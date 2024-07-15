@@ -5,5 +5,4 @@ print(result.index('9'))
 
 print(int(result[21:23]) + 10)
 print(int(result[45:48]) + 10)
-print(int(result[78:80]) + 10)
-
+print(int(result[78:80]) + 10) 
