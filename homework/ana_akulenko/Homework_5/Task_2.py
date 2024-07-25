@@ -1,13 +1,18 @@
-result = 'результат операции = 42 результат операции = 514 результат работы программы = 9'
+result = 'результат операции: 42 результат операции: 514 результат работы программы: 9'
 
-print(result.index('42'))
+result_list = result.split()
 
-print(result.index('514'))
+print(result_list)
 
-print(result.index('9'))
+print(result_list.index('операции:'))
 
-print(int(result[21:23]) + 10)
+print(result_list.index('работы'))
 
-print(int(result[45:48]) + 10)
+print(len(result_list))
 
-print(int(result[78:80]) + 10)
+print(int(result_list[2])+10)
+
+print(int(result_list[5])+10)
+
+print(int(result_list[-1])+10) 
+
