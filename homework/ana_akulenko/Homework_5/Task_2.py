@@ -10,9 +10,8 @@ print(result_list.index('работы'))
 
 print(len(result_list))
 
-print(int(result_list[2])+10)
+print(int(result_list[2]) + 10)
 
-print(int(result_list[5])+10)
+print(int(result_list[5]) + 10)
 
-print(int(result_list[-1])+10) 
-
+print(int(result_list[-1]) + 10)
